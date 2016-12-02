@@ -8,14 +8,11 @@ export default Component.extend({
   layout,
   styles,
 
-  localClassNameBindings: [
+  classNameBindings: [
+    'notification.cssClasses',
     'dismissClass',
     'clickableClass',
     'processedType'
-  ],
-
-  classNameBindings: [
-    'notification.cssClasses'
   ],
 
   paused: false,
